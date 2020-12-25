@@ -14,6 +14,7 @@ li {
 body {
     height: 1000px;
 }
+
 /*header开始*/
 .wrapper {
     width: 1200px;
@@ -48,6 +49,7 @@ header .login {
 header span {
     margin: 0 6px;
 }
+
 /*header结束*/
 
 
@@ -55,21 +57,25 @@ header span {
 nav {
     height: 100px;
 }
+
 nav img {
     width: 187px;
     height: 55px;
-    margin:23px auto;
+    margin: 23px auto;
 }
+
 nav ul {
     float: right;
-    margin-right: -23px ;
+    margin-right: -23px;
 }
+
 .nav-list .nav-item {
     position: relative;
     float: left;
     padding: 0 23px;
     margin-top: 29px;
 }
+
 .nav-list .sub-list {
     background-color: #ffffff;
     width: 150px;
@@ -81,15 +87,19 @@ nav ul {
     top: 47px;
     display: none;
 }
+
 .nav-list .sub-toggle {
     padding-bottom: 20px;
 }
+
 .nav-list .sub-list:hover {
     display: block;
 }
+
 .nav-list .sub-toggle:hover + .sub-list {
     display: block;
 }
+
 .nav-list .sub-list::before {
     content: '';
     display: block;
@@ -104,9 +114,11 @@ nav ul {
     border-bottom: transparent;
     border-right: transparent;
 }
+
 .nav-list .sub-item a {
     font-size: 16px;
 }
+
 /*nav ul li:last-child {*/
 /*    padding: 0;*/
 /*}*/
@@ -119,10 +131,50 @@ nav ul a {
     text-align: center;
     line-height: 40px;
 }
+
 nav .sub-link:hover {
     background-color: #eeeeee;
 }
+
 nav a:hover {
     color: #e94400;
 }
+
 /*nav结束*/
+
+/*banner开始*/
+#banner {
+    height: 640px;
+    background: url(../images/banner.jpg) center;
+    /*overflow: hidden;*/
+    /*    解决外边距合并*/
+    text-align: center;
+}
+
+#banner h2 {
+    font-size: 54px;
+    color: #ffffff;
+    font-weight: 300;
+    padding-top: 193px;
+    /*margin-top: 193px;*/
+}
+
+#banner button {
+    color: #fff;
+    font-size: 24px;
+    background: #f93f2b;
+    width: 260px;
+    height: 60px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    margin-top: 36px;
+    line-height: 60px;
+}
+
+#banner button:active, #banner button:hover {
+    background: #e33927;
+    cursor: pointer;
+}
+
+/*banner结束*/
