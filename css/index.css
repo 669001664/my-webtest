@@ -12,7 +12,7 @@ li {
 }
 
 body {
-    height: 1000px;
+    height: 1200px;
 }
 
 /*header开始*/
@@ -237,3 +237,48 @@ main.wrapper {
     text-align: center;
 }
 /*main结束*/
+/*footer开始*/
+.footer-left {
+    float: left;
+    margin-top: 100px;
+}
+.footer-left ul {
+    float: left;
+}
+.footer-left li {
+    float: left;
+    padding: 0 8px;
+    border-right: 1px solid #575757;
+    text-align: center;
+}
+.footer-left li:last-child {
+    border-right: 0;
+}
+.footer-left a {
+    color: #575757;
+    font-size: 14px;
+    display: inline-block;
+    height: 14px;
+}
+.footer-left img {
+    width: 36px;
+    height: 36px;
+    float: left;
+    margin-right: 8px;
+}
+.footer-right {
+    float: right;
+    margin-top: 81px;
+}
+.footer-right .desc {
+    font-size: 14px;
+    color: #575757;
+}
+.footer-right .tel {
+    font-size: 26px;
+    color: #e94400;
+}
+.footer-right .time {
+    font-size: 12px;
+}
+/*footer结束*/
